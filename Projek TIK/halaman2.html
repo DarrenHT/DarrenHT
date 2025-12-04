@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NontonAjaa - Action Theme</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+        background: url('https://images.nvidia.com/geforce/news/spider-man-remastered-pc-dlss-ray-tracing-geforce-rtx-trailer/marvels-spider-man-remastered-pc-screenshot-001.jpg') center/cover no-repeat fixed;
+    }
+
+    .logo {
+        position: fixed;
+        top: 20px;
+        left: 40px;
+        font-size: 22px;
+        font-weight: bold;
+        background: yellow;
+        padding: 4px 8px;
+        color: black;
+        border-radius: 4px;
+        text-decoration: none;
+        z-index: 9999;
+    }
+
+    .top-menu {
+        position: fixed;
+        top: 20px;
+        right: 40px;
+        display: flex;
+        gap: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        z-index: 9999;
+    }
+
+    .top-menu a {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .top-menu a:hover {
+        color: yellow;
+    }
+
+    .hero {
+        position: relative;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        z-index: 1;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+        color: yellow;
+        text-shadow: 0 0 20px black;
+        transition: 0.4s;
+    }
+
+    .container {
+        padding: 60px 10%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+    }
+
+    .card {
+        background: rgba(0,0,0,0.6);
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px solid red;
+        box-shadow: 0 0 10px red;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px yellow;
+        border-color: yellow;
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        border: 2px solid yellow;
+    }
+
+    .card h3 {
+        color: yellow;
+        margin: 10px 0;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        opacity: 0.7;
+    }
+</style>
+</head>
+<body>
+
+
+<a href="Projek.html" class="logo">NontonAjaa</a>
+<div class="top-menu">
+    <a href="halaman1.html">Sci-Fi</a>
+    <a href="halaman2.html">Action</a>
+    <a href="halaman3.html">Horror</a>
+    <a href="halaman4.html">Komedi</a>
+</div>
+
+
+<div class="hero">
+    <h1 id="heroText">SELAMAT DATANG DI FILM ACTION</h1>
+</div>
+
+<div class="container">
+    <h2>Film-Film Action</h2>
+
+    <div class="grid">
+
+        
+        <div class="card">
+            <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9360990_p_v12_at.jpg" alt="Pacific Rim 1">
+            <h3>Pacific Rim</h3>
+            <p>Pacific Rim bercerita tentang dunia yang diserang oleh Kaiju, monster raksasa yang muncul dari celah antardimensi di dasar laut. Untuk melawan ancaman itu, manusia menciptakan Jaeger, robot raksasa yang dikendalikan oleh dua pilot melalui koneksi mental bernama drift. Raleigh Becket, mantan pilot yang kehilangan saudaranya dalam pertempuran, dipanggil kembali ketika Kaiju semakin kuat dan serangan mereka mencapai titik kritis. Bersama partner barunya, Mako Mori, ia mengoperasikan Jaeger legendaris Gipsy Danger dalam misi terakhir untuk menutup portal dan menghentikan invasi yang dapat mengakhiri umat manusia.
+<br>
+<br>
+Cast: 
+Charlie Hunnam, Idris Elba, Rinko Kikuchi, Charlie Day, Ron Perlman</p>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNdHv_TSdVenPajKidxw-L3gB8fOeeOR1oVw&s" alt="Jumanji">
+            <h3>Jumanji</h3>
+            <p>Jumanji mengisahkan sebuah permainan misterius yang dapat membawa dunia game ke dunia nyata. Ketika para tokoh membuka atau terjebak dalam permainan tersebut, mereka harus menghadapi tantangan berbahaya, makhluk liar, dan teka-teki yang hanya bisa diselesaikan dengan kerja sama. Setiap pemain memiliki peran dan kemampuan unik yang menentukan peluang mereka untuk bertahan hidup. Petualangan penuh humor, aksi, dan kejutan ini menunjukkan bagaimana keberanian dan persahabatan dapat membantu mereka menemukan jalan keluar dari dunia Jumanji yang penuh bahaya.
+<br>
+<br>
+Cast:
+Dwayne Johnson, Kevin Hart, Jack Black, Karen Gillan, Nick Jonas. </p>
+
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxynmAPJEhUVsx3FnVtVJ--uo2lBweW0Sp5g&s" alt="John Wick">
+            <h3>John Wick</h3>
+            <p>John Wick mengikuti kisah seorang mantan pembunuh bayaran legendaris bernama John Wick yang mencoba hidup tenang setelah pensiun. Namun kedamaian itu hancur ketika sekelompok penjahat merampok rumahnya dan mengambil satu-satunya kenangan terakhir dari mendiang istrinya. Hal ini membuat John kembali ke dunia kriminal, memburu para pelaku dengan keahlian bertarung luar biasa dan reputasinya sebagai sosok yang ditakuti di seluruh dunia bawah tanah. Film ini penuh aksi intens, gaya visual elegan, dan pertarungan yang menjadi ciri khas seri John Wick.
+<br>
+<br>
+Cast: 
+Keanu Reeves, Ian McShane, Willem Dafoe, Lance Reddick, Alfie Allen</p>
+        </div>
+
+        <div class="card">
+            <img src="https://castrumors.com/wp-content/uploads/2025/05/mission-impossible-%E2%80%93-the-final-reckoning-2025.jpg" alt="Mission Impossible">
+            <h3>Mission Impossible</h3>
+            <p>Dalam film Mission: Impossible – Dead Reckoning, Ethan Hunt dan timnya menghadapi ancaman baru berupa teknologi berbahaya yang dapat mengacaukan tatanan dunia. Mereka harus berlomba dengan waktu untuk menghentikan pihak-pihak yang ingin menyalahgunakan teknologi tersebut. Petualangan ini membawa Ethan ke berbagai negara, menghadapi pengkhianatan, keputusan sulit, dan aksi penyamaran khas yang penuh ketegangan sambil mempertahankan kepercayaan timnya.
+<br>
+<br>
+Cast: 
+Tom Cruise, Rebecca Ferguson, Simon Pegg, Ving Rhames, Hayley Atwell, Esai Morales</p>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkeC8T7Ec7q8lBkUAvIbUBDJyF6fZlQHNbfA&s" alt="The Dark Knight">
+            <h3>The Dark Knight</h3>
+            <p>The Dark Knight mengisahkan Batman yang kembali menjaga Gotham dari ancaman kriminal yang semakin tidak terkendali. Ketika muncul sosok Joker—penjahat misterius yang brutal, cerdas, dan tidak memiliki tujuan selain menciptakan kekacauan—Batman, Letnan Jim Gordon, dan Jaksa Harvey Dent harus bekerja sama untuk menghentikan rencana gilanya. Namun Joker membuat Batman menghadapi dilema moral yang paling berat dalam hidupnya, menguji batas antara keadilan dan pengorbanan. Film ini menyoroti konflik psikologis, pilihan sulit, dan konsekuensi dari menjadi simbol harapan di kota yang kacau.
+<br>
+<br>
+Cast: 
+Christian Bale, Heath Ledger, Aaron Eckhart, Gary Oldman, Michael Caine, Morgan Freeman</p>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2025 NontonAjaa — Action Theme
+</footer>
+
+<script>
+    const heroText = document.getElementById("heroText");
+    let isBig = true;
+
+    setInterval(() => {
+        heroText.style.transform = isBig ? "scale(1.1)" : "scale(1)";
+        isBig = !isBig;
+    }, 800);
+</script>
+
+</body>
+</html>
